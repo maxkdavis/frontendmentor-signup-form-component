@@ -35,6 +35,8 @@ body {
 
 .cta {
   border: 1px solid #fff;
+  display: grid;
+  gap: 8rem;
 }
 
 .heading--primary {
@@ -46,17 +48,16 @@ body {
 
 /* HELPER CLASSES */
 .margin-bottom-sm {
-  margin-bottom: 1.6rem !important;
+  margin-bottom: 1.6rem;
 }
 
 /* HEADER */
 .header {
   text-align: center;
-  outline: 2px solid purple;
+  /* outline: 1px solid purple; */
 }
 
 /* CTA FORM */
 .cta__text-box {
-  margin-top: 5rem;
   outline: 2px solid green;
 }
