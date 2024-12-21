@@ -36,7 +36,7 @@ body {
 .cta {
   border: 1px solid #fff;
   display: grid;
-  gap: 8rem;
+  gap: 6.4rem;
 }
 
 .heading--primary {
@@ -57,7 +57,25 @@ body {
   /* outline: 1px solid purple; */
 }
 
-/* CTA FORM */
+/* CTA SECTION */
+
+.btn-cta {
+  color: #fff;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 11px;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 1.6rem 4.8rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  letter-spacing: 0.27px;
+  cursor: pointer;
+  box-shadow: rgba(116, 116, 116, 0.4) 0px 6px;
+}
+
 .cta__text-box {
-  outline: 2px solid green;
+  outline: 1px solid green;
 }
