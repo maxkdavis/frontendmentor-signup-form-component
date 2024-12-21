@@ -1,0 +1,62 @@
+:root {
+  --primary-clr-red: hsl(0, 100%, 74%);
+  --priamry-clr-Green: hsl(154, 59%, 51%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /*create base font size of 10px*/
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem; /*16px*/
+  color: #fff;
+}
+
+/* REUSABLE COMPONENTS */
+.section-cta {
+  background-image: url('images/bg-intro-mobile.png');
+  background-color: hsl(0, 100%, 74%);
+  min-height: 100vh;
+  padding: 9.6rem 0 6.4rem 0;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 2.4rem;
+  margin: 0 auto;
+}
+
+.cta {
+  border: 1px solid #fff;
+}
+
+.heading--primary {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.29px;
+}
+
+/* HELPER CLASSES */
+.margin-bottom-sm {
+  margin-bottom: 1.6rem !important;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  outline: 2px solid purple;
+}
+
+/* CTA FORM */
+.cta__text-box {
+  margin-top: 5rem;
+  outline: 2px solid green;
+}
