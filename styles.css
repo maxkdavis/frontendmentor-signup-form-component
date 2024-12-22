@@ -34,7 +34,7 @@ body {
 }
 
 .cta {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   display: grid;
   gap: 6.4rem;
 }
@@ -44,6 +44,15 @@ body {
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: -0.29px;
+}
+
+.btn {
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  border-radius: 11px;
+  letter-spacing: 0.27px;
+  cursor: pointer;
 }
 
 /* HELPER CLASSES */
@@ -58,24 +67,62 @@ body {
 }
 
 /* CTA SECTION */
-
-.btn-cta {
-  color: #fff;
-  background-color: hsl(248, 32%, 49%);
+.cta__text-box {
   border-radius: 11px;
+  box-shadow: rgba(116, 116, 116, 0.4) 0px 6px;
+}
+
+.btn--cta {
+  background-color: hsl(248, 32%, 49%);
   display: inline-block;
-  font-family: inherit;
   font-size: 1.5rem;
   font-weight: 400;
   text-decoration: none;
   padding: 1.6rem 4.8rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
   text-align: center;
-  letter-spacing: 0.27px;
-  cursor: pointer;
   box-shadow: rgba(116, 116, 116, 0.4) 0px 6px;
 }
 
-.cta__text-box {
-  outline: 1px solid green;
+.cta__form-box {
+  padding: 2.4rem;
+  background-color: #fff;
+  border-radius: 11px;
+}
+
+.cta__form {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.cta__form input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: inherit;
+  letter-spacing: 0.25px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.cta__form input::placeholder {
+  color: #555;
+}
+
+.cta__form *:focus {
+  outline: none; /*get's rid of the blue border around the focused input field*/
+  /* box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5); */
+  box-shadow: 0 0 0 0.4rem rgba(255, 122, 122, 0.65);
+}
+
+.btn--form {
+  background-color: hsl(154, 59%, 51%);
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: hsla(154, 57%, 36%, 0.777) 0px 4px;
 }
