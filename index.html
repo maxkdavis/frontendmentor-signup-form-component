@@ -35,19 +35,20 @@
               <div class="cta__form-box">
                 <form class="cta__form">
                   <div>
-                    <input type="text" placeholder="First Name" required />
+                    <input id="first-name" type="text" placeholder="First Name" />
+                    <small class="error">First Name cannot by empty</small>
                   </div>
                   <div>
-                    <input type="text" placeholder="Last Name" required />
+                    <input id="last-name" type="text" placeholder="Last Name" />
                   </div>
                   <div>
-                    <input type="email" placeholder="Email Address" required />
+                    <input id="email" type="email" placeholder="Email Address" />
                   </div>
                   <div>
-                    <input type="password" placeholder="Password" required />
+                    <input id="password" type="password" placeholder="Password" />
                   </div>
 
-                  <button class="btn btn--form">Claim your free Trial</button>
+                  <button class="btn btn--form" type="submit">Claim your free Trial</button>
                 </form>
                 <div class="cta__form-text-box">
                   <p>
@@ -60,5 +61,6 @@
         </div>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
